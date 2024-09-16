@@ -1,7 +1,9 @@
 import {StyleSheet} from 'react-native';
 
 export const style = StyleSheet.create({
-  container: {},
+  container: {
+    marginBottom: 10,
+  },
   searchContainer: {
     flexDirection: 'row',
     justifyContent: 'space-between',
